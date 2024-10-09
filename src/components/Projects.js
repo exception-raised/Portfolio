@@ -46,7 +46,7 @@ export default function Projects() {
     
     return (
         <section className="container text-center my-5" id="projects">
-            <h2 className="mb-4">Projects</h2>
+            <h2 className="mb-4 text-white">Projects</h2>
             <div className="row ">
                 {projects.map((project, idx) => (
                     <div className="col-md-4" key={idx}>

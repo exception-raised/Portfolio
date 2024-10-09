@@ -76,3 +76,7 @@ h1.display-3 {
 .animate-slide-up {
     animation: slideUp 2s ease;
 }
+
+body {
+    background-color: black;
+}

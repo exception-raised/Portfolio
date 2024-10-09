@@ -14,7 +14,7 @@ export default function Skills() {
 
     return (
         <section className="container text-center my-5" id="skills">
-            <h2 className="mb-4">Skills</h2>
+            <h2 className="mb-4 text-white">Skills</h2>
             <div className="row">
                 {skills.map((skill, idx) => (
                     <div className="col-md-4" key={idx}>
