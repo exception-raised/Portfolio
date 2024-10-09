@@ -2,6 +2,8 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
+    const iconStyle = { color: '#007bff', size: '2em' }; // Example style
+    
     return (
         <footer className="footer bg-dark text-white text-center py-4">
             <div className="container">
@@ -14,7 +16,7 @@ export default function Footer() {
                         <FaLinkedin size={30} />
                     </a>
                 </div>
-                <p>© 2024 Daniel. All rights reserved.</p>
+                <p>© 2024 Daniel Immelman. All rights reserved.</p>
             </div>
         </footer>
     );
