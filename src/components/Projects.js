@@ -52,18 +52,18 @@ export default function Projects() {
                     <div className="col-md-4" key={idx}>
                         <div className="project-box p-3 p-4 border shadow-lg mb-4 rounded"
                             style={{ 
-                                    backgroundColor: '#f8f9fa', 
+                                    backgroundColor: '#212529', 
                                     transition: 'transform 0.2s', 
                                     cursor: 'pointer' 
                                 }}
                             onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'}
                             onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>
                             <h5>
-                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-white">
                                     {project.title}
                                 </a>
                             </h5>
-                            <p>{project.description}</p>
+                            <p className='text-white'>{project.description}</p>
                             <div className="icons d-flex justify-content-center">
                                 {project.icons.map((icon, iconIdx) => (
                                     <span key={iconIdx} className="mx-2">{icon}</span>

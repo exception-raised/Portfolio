@@ -18,9 +18,9 @@ export default function Skills() {
             <div className="row">
                 {skills.map((skill, idx) => (
                     <div className="col-md-4" key={idx}>
-                        <div className="skill-box p-4 border shadow-lg mb-4 rounded" 
+                        <div className="skill-box p-4 border shadow-lg mb-4 rounded " 
                              style={{ 
-                                 backgroundColor: '#f8f9fa', 
+                                 backgroundColor: '#212529', 
                                  transition: 'transform 0.2s', 
                                  cursor: 'pointer' 
                              }}
@@ -28,7 +28,7 @@ export default function Skills() {
                              onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
                         >
                             <div className="icon mb-3">{skill.icon}</div>
-                            <h5>{skill.name}</h5>
+                            <h5 className='text-white'>{skill.name}</h5>
                         </div>
                     </div>
                 ))}
