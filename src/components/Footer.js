@@ -2,7 +2,6 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
-    const iconStyle = { color: '#007bff', size: '2em' }; // Example style
     
     return (
         <footer className="footer bg-dark text-white text-center py-4">
@@ -12,7 +11,7 @@ export default function Footer() {
                     <a href="https://github.com/exception-raised" className="text-white mx-2">
                         <FaGithub size={30} />
                     </a>
-                    <a href="https://linkedin.com/in/yourlinkedin" className="text-white mx-2">
+                    <a href="https://www.linkedin.com/in/daniel-immelman-a7a64b299/" className="text-white mx-2">
                         <FaLinkedin size={30} />
                     </a>
                 </div>
