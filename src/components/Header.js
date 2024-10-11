@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
+import { BsStackOverflow } from 'react-icons/bs';
+
 
 export default function Header() {
     return (
@@ -19,6 +21,9 @@ export default function Header() {
                 </a>
                 <a href="https://leetcode.com/exception-raised/" className="social-link" target="_blank" rel="noopener noreferrer">
                     <SiLeetcode />
+                </a>
+                <a href="https://stackoverflow.com/users/27669776/exception-raised" className="social-link" target="_blank" rel="noopener noreferrer">
+                    <BsStackOverflow />
                 </a>
             </div>
         </header>
