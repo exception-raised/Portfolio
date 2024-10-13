@@ -8,9 +8,11 @@ import { BsStackOverflow } from 'react-icons/bs';
 export default function Header() {
     return (
         <header className="header text-center d-flex flex-column justify-content-center align-items-center">
-            <h1 className="display-3 animate-fade-in">
-                Daniel Immelman <span className="emoji">👨‍💻</span>
-            </h1>
+            <div className='typewriter'>
+                <h1 className="display-3 animate-fade-in">
+                    Daniel Immelman <span className="emoji">👨‍💻</span>
+                </h1>
+            </div>
             <p className="lead animate-slide-up">Full Stack Developer | Open Source Enthusiast</p>
             <div className="social-icons animate-fade-in">
                 <a href="https://github.com/exception-raised" className="social-link" target="_blank" rel="noopener noreferrer">

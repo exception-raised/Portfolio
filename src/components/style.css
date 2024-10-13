@@ -50,6 +50,36 @@ h1.display-3 {
     animation: bounce 2s infinite;
 }
 
+.typewriter {
+    display: flex;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    margin-inline: auto;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 3s steps(30) forwards, 
+    blink 1s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
