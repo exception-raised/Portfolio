@@ -1,0 +1,16 @@
+<section class="container text-center my-5" id="skills">
+    <h2 class="mb-4 text-white">Skills</h2>
+    <div class="row">
+        @for(skill of skills; track $index){
+            <div class="col-md-4" key={idx}>
+                <div class="skill-box p-4 border shadow-lg mb-4 rounded skill-container"
+                    onmouseenter="this.style.transform = 'scale(1.05)'"
+                    onmouseleave="this.style.transform = 'scale(1)'">
+                >
+                    <ng-icon [name]="skill.icon" [style.color]="skill.color"></ng-icon>
+                    <h5 class='text-white'>{{skill.name}}</h5>
+                </div>
+            </div>
+        }
+    </div>
+</section>

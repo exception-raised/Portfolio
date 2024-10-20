@@ -38,12 +38,14 @@ h1.display-3 {
     color: white;
     font-size: 2rem;
     margin: 0 10px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, filter 0.3s ease; 
 }
 
 .social-link:hover {
     color: #007bff;
+    filter: drop-shadow(0 0 3px rgba(45, 255, 196, 0.56));
 }
+
 
 .emoji {
     display: inline-block;
